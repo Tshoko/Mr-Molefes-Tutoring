@@ -1,6 +1,5 @@
 
 .about_card{
-  overflow: hidden;
   border: 1px solid #eee;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgb(0,0,0,.2);
@@ -25,7 +24,7 @@
 }
 .about_card .about_card__body{
     text-align: left;
-    width: 100%;
+    width: 90%;
     position: relative;
     left: 0px;
     
@@ -37,19 +36,10 @@
 
 
 @media screen and (max-width:940px) {
-
-.about_card{
-    overflow: hidden;
-    border: 1px solid #eee;
-    border-radius: 8px;
-    box-shadow: 0 3px 10px rgb(0,0,0,.2);
-    padding: 1rem;
-    width: 80%;
-    height: 80px;
-    display:flex;
-    margin: 1px;
-   
-  }
+  .about_card{
+    width: 90%;
+    height: 50px;
+  }  
   .about_card .about_card__body .about_card__description{
     font-size: var(--text-size-mobile);
 }

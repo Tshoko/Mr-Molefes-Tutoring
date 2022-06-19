@@ -13,9 +13,7 @@ const About = () => {
             <img className="about-img" src={john} alt='about-img'/>
             <div className='about_card_list'>
                 <AboutCard title="Matric Upgrading"
-                    description="Contrary to popular belief, Lorem Ipsum is not simply random text. 
-                    Contrary to popular belief, Lorem Ipsum is not simply random text.
-                    Contrary to popular belief, Lorem Ipsum is not simply random text."
+                    description="Contrary to popular belief, Lorem Ipsum is not simply random text."
                 />
                 <AboutCard title="Extra Classes For High Schoolers"
                     description="Baked Cod with Vegetables. 30 minute meal!"
