@@ -1,0 +1,54 @@
+.about {
+    background-color: #f8f8f8;
+    margin: auto;
+    padding: 8rem 1rem 0 1rem;
+    width: 100%;
+}
+
+.about .container {
+    width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.about .about-header {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.about .container .about-img{
+    border-radius: 10px;
+    position: relative;
+    justify-content: center;
+    max-height: 700px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.about .container .about_card_list{
+    height: 100%;
+    width: 100%;
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+    margin: auto;
+    margin-left: 10px;
+}
+@media screen and (max-width:900px) {
+    .about .container {
+        grid-template-columns: 1fr;
+    }
+
+    .about .container {
+        width: 100%;
+    }
+    .about .container .about_card_list{
+        height: 120%;
+        display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+        margin: auto;
+    }
+}

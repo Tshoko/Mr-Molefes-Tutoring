@@ -1,0 +1,54 @@
+.classes {
+    background-color: #f8f8f8;
+    margin: auto;
+    padding: 8rem 1rem 0 1rem;
+    width: 100%;
+}
+
+.classes .container {
+    width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.classes .classes-header {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.classes .container .classes-img{
+    border-radius: 10px;
+    position: relative;
+    justify-content: center;
+    max-height: 700px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.classes .container .classes_card_list{
+    height: 100%;
+    width: 100%;
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+    margin: auto;
+    margin-left: 10px;
+}
+@media screen and (max-width:900px) {
+    .classes .container {
+        grid-template-columns: 1fr;
+    }
+
+    .classes .container {
+        width: 100%;
+    }
+    .classes .container .classes_card_list{
+        height: 120%;
+        display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+        margin: auto;
+    }
+}
