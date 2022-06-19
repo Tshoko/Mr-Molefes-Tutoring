@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './App.css';
+
 import Nav from './components/navbar/Navbar';
 import About from './components/pages/about/About';
 import Classes from './components/pages/classes/Classes';
@@ -10,11 +10,11 @@ import Testimonials from './components/pages/testimonials/Testimonials';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Nav/>
       <Hero/>
       <About/>
-      <Classes/>
+      
       <Team/>
       <Testimonials/>
       <Hero/>

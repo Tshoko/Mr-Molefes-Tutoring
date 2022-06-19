@@ -6,7 +6,7 @@ import HeroImg from "../../../images/hero.jpg"
 
 const Hero = () => {
     return (
-        <div className='hero'>
+        <div className='hero' id="hero">
             <div className='content'>
                 <p>Call us</p>
                 <p>071 563 4345</p>

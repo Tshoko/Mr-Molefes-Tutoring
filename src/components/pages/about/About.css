@@ -36,19 +36,27 @@
     margin: auto;
     margin-left: 10px;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:800px) {
     .about .container {
         grid-template-columns: 1fr;
+        width: 90%;
+       
     }
 
-    .about .container {
-        width: 100%;
-    }
     .about .container .about_card_list{
         height: 120%;
+        width: 90%;
         display: flex;
       flex-wrap: wrap;
       flex-direction: column;
+        margin: auto;
+    }
+    .about .container .about-img{
+        border-radius: 10px;
+        position: relative;
+        justify-content: center;
+        max-height: 100%;
+        max-width: 100%;
         margin: auto;
     }
 }

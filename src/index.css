@@ -28,7 +28,9 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -7,6 +7,7 @@
     transition: .3s ease-in;
     overflow: hidden;
     z-index: 1;
+    
 }
 #header {
     background-color:rgba(2, 143, 143, 0.9);
@@ -55,10 +56,11 @@
     border-bottom: 5px solid var(--secondary-color);
   }
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:900px) {
     .header {
         max-width: 100%;
         background-color: rgba(0,0,0,.9);
+        color: #000;
     }
 
     .header .navbar {
@@ -88,10 +90,6 @@
 
     Link {
         margin: 1.5rem 0;
-    }
-
-    .header .navbar img {
-        width: 150px;
     }
 }
 
