@@ -5,8 +5,8 @@
   border-radius: 8px;
   box-shadow: 0 3px 10px rgb(0,0,0,.2);
   padding: 1rem;
-  width: 95%;
-  height: 150px;
+  width: 90%;
+  height: 80px;
   display:flex;
   margin: auto;
  
@@ -34,13 +34,9 @@
     text-align: left;
     font-size:larger;
 }
-.about_card .about_card__body .about_card__description{
-    color: #787878;
-    color:var(--text-color);
-    font-size: var(--text-size);
-}
 
-@media screen and (max-width:800px) {
+
+@media screen and (max-width:940px) {
 
 .about_card{
     overflow: hidden;
@@ -48,10 +44,13 @@
     border-radius: 8px;
     box-shadow: 0 3px 10px rgb(0,0,0,.2);
     padding: 1rem;
-    width: 1%;
+    width: 80%;
     height: 80px;
     display:flex;
     margin: 1px;
    
   }
+  .about_card .about_card__body .about_card__description{
+    font-size: var(--text-size-mobile);
+}
 }

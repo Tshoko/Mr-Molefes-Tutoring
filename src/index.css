@@ -6,6 +6,7 @@
   --overlay: rgba(0,0,0,.7);
   --text-color:#787878;
   --text-size: 1rem;
+  --text-size-mobile: 0.5rem;
 }
 
 body {
