@@ -1,0 +1,67 @@
+
+.pricing_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pricing_card_container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+}
+.plan-price{
+    font-size: 4rem;
+    font-style:italic;
+    font-stretch: ultra-condensed;
+}
+.pricing_card_image{
+    border-radius: 50px;
+    margin-top: 2rem;
+    width: 40%;
+    padding-left: 20%;
+    color:white;
+    
+}
+
+.plan_card{
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0,0,0,.2);
+    color:white;
+    content: '';
+    background:url("../../../images/books.jpg")no-repeat center center/cover;
+    width: 300px;
+    padding: 1rem;
+    margin-left: 100px;
+    opacity: 1.6 black;
+    font-weight: bold;
+}
+.plan_card:hover{
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 15px 25px rgb(0,0,0,.2);
+    background-color: rgb(14, 48, 242);
+    opacity: 0.5;
+    transform: scale(1.057);
+    transition: 60ms;
+}
+
+
+@media only screen and (max-width:940px){
+    .pricing_card_container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        
+    }
+    .plan_card{
+      width: 80%;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+}
+

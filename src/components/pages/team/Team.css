@@ -12,6 +12,9 @@
     font-size: 3rem;
     text-align: center;
 }
+.team h3 {
+    text-align: center;
+}
 
 .team .container .content {
     display: grid;
@@ -24,7 +27,6 @@
     border: 1px solid #eee;
     border-radius: 8px;
     box-shadow: 0 3px 10px rgb(0,0,0,.2);
-    padding: 1rem;
     max-width: 50;
 }
 
@@ -49,6 +51,7 @@
     align-items: center;
 }
 
+
 @media screen and (max-width: 900px) {
     .team .container {
         width: 100%;
@@ -61,6 +64,13 @@
     .team .card {
         max-width: 100%;
         margin: 1rem;
+        position: relative;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 20px;
+        max-height: 100%;
+        max-width: 80%;
+        
     }
 }
 
