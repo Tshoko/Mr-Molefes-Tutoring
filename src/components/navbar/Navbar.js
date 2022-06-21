@@ -22,7 +22,7 @@ const Navbar = () => {
                 <li className={click ? "nav-menu active" : "nav-menu"}>
                     <Link activeClass="active" style={style} to="hero" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Home</Link>
                     <Link activeClass="active" style={style} to="about" spy={true} smooth={true} offset={-90} duration={500}onClick={closeMenu}>About</Link>
-                    <Link activeClass="active" style={style} to="classes" spy={true} smooth={true} offset={0} duration={500}onClick={closeMenu}>Classes</Link>
+                    <Link activeClass="active" style={style} to="pricing" spy={true} smooth={true} offset={0} duration={500}onClick={closeMenu}>Pricing</Link>
                     <Link activeClass="active" style={style} to="team" spy={true} smooth={true} offset={0} duration={500}onClick={closeMenu}>Team</Link>
                     <Link activeClass="active" style={style} to="testimonials" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Testimonials</Link>
                     <Link activeClass="active" style={style} to="about" spy={true} smooth={true} offset={50} duration={500}onClick={closeMenu}>Contact Us</Link>
