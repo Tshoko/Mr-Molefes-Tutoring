@@ -1,49 +1,61 @@
-import React from 'react'
+import React from "react";
 
-import './Pricing.css'
-import user1 from '../../../images/certificate1.png'
-
-const Pricing = () => {
-    return (
-        <div className='pricing_container' id='pricing'>
-                <h2 className='pricing_header'>Pricing</h2>
-                <div className='pricing_card_container'>
-                <span className='line'></span>
-                <PricingCard/>
-                <PricingCard/>
-                <PricingCard/>
-
-                </div>
-                
-                 
-        </div>
-    )
-}
-const PricingCard= (props) => {
-    return (
-        <div class="plan_card">
-            <h3 class="plan-title">
-            Unpgrading Students
-            </h3>
-            <img src={user1} className="pricing_card_image" alt='user1'/>
-            <div class="plan-cost"><span class="plan-price">R200</span><span class="plan-type">/ Monthly per Subject</span></div>
-            <ul class="plan-features">
-            <li><i class="ion-checkmark"> </i>Admin Fee R800</li>
-            <hr></hr>
-            <li><i class="ion-checkmark"> </i>Offer Both Math Or Physisics</li>
-            <hr></hr>
-            <li><i class="ion-checkmark"> </i>Unlimited Email</li>
-            <hr></hr>
-            <li><i class="ion-checkmark"> </i>250Gb Monthly Transfer</li>
-            <hr></hr>
-            <li><i class="ion-checkmark"> </i>24/7 Tech Support</li>
-            <hr></hr>
-            <li><i class="ion-checkmark"> </i>Daily Backups</li>
-            </ul>
-            <div class="plan-select"><a href="">Select Plan</a></div>
-        </div>
-    )
+import "./Pricing.css";
+import user1 from "../../../images/certificate1.png";
+import PricingCard from "./PricingCard";
+const data = {
+  card1: {
+    title: "Upgrading Students",
+    price_plan: "R300",
+    plan_type: "/ Monthly per Subject",
+    fee: "Admin Fee: R800",
+    subjects: "Mathematics And Science"
+  },
+  card2: {
+    title: "Extra Classes",
+    price_plan: "R300",
+    plan_type: "/ Monthly per Subject",
+    fee: "Admin Fee:300",
+    subjects: "Mathematics And Science"
+  },
+  card3: {
+    title: "Private Lessons",
+    price_plan: "R100",
+    plan_type: "/ Hour",
+    fee: "External Tutoring: R150 Per Hour",
+    subjects: "Mathematics And Science"
   }
+};
+const Pricing = () => {
+  return (
+    <div className="pricing_container" id="pricing">
+      <h2 className="pricing_header">Pricing</h2>
+      <div className="pricing_card_container">
+        <span className="line"></span>
+        <PricingCard
+          title={data.card1.title}
+          price_plan={data.card1.price_plan}
+          plan_type={data.card1.plan_type}
+          fee={data.card1.fee}
+          subjects={data.card1.subjects}
+        />
+        <PricingCard
+          title={data.card2.title}
+          price_plan={data.card2.price_plan}
+          plan_type={data.card2.plan_type}
+          fee={data.card2.fee}
+          subjects={data.card2.subjects}
+        />
+        <PricingCard
+          title={data.card3.title}
+          price_plan={data.card3.price_plan}
+          plan_type={data.card3.plan_type}
+          fee={data.card3.fee}
+          subjects={data.card3.subjects}
+        />
+      </div>
+    </div>
+  );
+};
 
-
-export default Pricing
+export default Pricing;
