@@ -1,20 +1,53 @@
 import React from "react";
-
-import "./Pricing.css";
-import user1 from "../../../images/certificate1.png";
-
+import { Link } from "react-scroll";
+import "./PricingCard.css";
 const PricingCard = (props) => {
   return (
-    <div class="plan_card">
-      <img src={user1} className="pricing_card_image" alt="user1" />
-      <h3 class="plan-title">{props.title}</h3>
-      <div class="plan-cost">
-        <span class="plan-price">{props.price_plan}</span>
-        <span class="plan-type">{props.plan_type}</span>
+    <div class="pricing_card">
+      <div class="pricingTable-header">
+        <h3 class="heading">{props.title}</h3>
+        <span class="price-value">
+          <div className="pricing_amount">
+            <span class="currency">R</span>
+            <span className="amount">{props.price_plan}</span>
+          </div>
+
+          <span class="month">{props.plan_type}</span>
+        </span>
       </div>
 
-      <p className="card_text">{props.fee}</p>
-      <p className="card_text">{props.subjects}</p>
+      <div class="pricing-content">
+        <div class="pricing-content1"></div>
+        <ul>
+          {props.text_array.map((text) => (
+            <li>{text}</li>
+          ))}
+        </ul>
+        <Link
+          className="read"
+          to="testimonials"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          Contact Us
+        </Link>
+        {props.title != "Private Lessons" ? (
+          <Link
+            className="read"
+            to="testimonials"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Schedules
+          </Link>
+        ) : (
+          ""
+        )}
+      </div>
     </div>
   );
 };
