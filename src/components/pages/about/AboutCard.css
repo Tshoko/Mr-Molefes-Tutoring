@@ -28,15 +28,23 @@
 }
 .about_card .about_card__body .about_card__title {
   position: relative;
-  top: -25px;
-  background-color: yellow;
+  top: -40px;
   text-align: left;
-  font-size: larger;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 0;
+  height: 40px;
+  width: 100%;
+
+  border-radius: 20px;
 }
 .about_card .about_card__body .about_card__description {
   position: relative;
-  top: -30px;
-  font-size: 1.5rem;
+  top: -70px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #777473;
+  padding: 10px 0;
 }
 @media screen and (max-width: 940px) {
   .about_card {
@@ -47,6 +55,5 @@
     min-width: 340px;
   }
   .about_card .about_card__body .about_card__description {
-    font-size: var(--text-size-mobile);
   }
 }
