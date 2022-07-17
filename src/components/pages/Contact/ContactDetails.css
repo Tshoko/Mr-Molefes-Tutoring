@@ -1,0 +1,17 @@
+.contact_details_container {
+  width: 700px;
+  background-color: hotpink;
+  height: 100%;
+  display: flex;
+}
+.contact_details_text {
+  margin-left: 10%;
+  margin-top: 50px;
+  width: 80%;
+}
+.contact_text {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  padding-top: -10px;
+}

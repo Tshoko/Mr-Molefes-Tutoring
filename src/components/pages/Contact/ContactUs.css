@@ -1,0 +1,9 @@
+.contactus {
+  width: 940px;
+  height: 40vh;
+  background-color: green;
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
