@@ -1,46 +1,52 @@
-
-.about_card{
+.about_card {
   border: 1px solid #eee;
   border-radius: 8px;
-  box-shadow: 0 3px 10px rgb(0,0,0,.2);
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
   padding: 1rem;
   width: 90%;
   height: 80px;
-  display:flex;
+  display: flex;
   margin: auto;
- 
 }
 .about_card:hover {
-    transform: scale(1.02);
-    box-shadow: 0 8px 15px rgb(0,0,0,.2);
+  transform: scale(1.02);
+  box-shadow: 0 8px 15px rgb(0, 0, 0, 0.2);
+}
+.about_card .about_card_icon {
+  width: 30%;
+  height: 60%;
+  font-size: 100px;
+  position: relative;
+  top: -15px;
+  left: -10px;
+}
+.about_card .about_card__body {
+  text-align: left;
+  width: 90%;
+  position: relative;
+  left: 0px;
+}
+.about_card .about_card__body .about_card__title {
+  position: relative;
+  top: -25px;
+  background-color: yellow;
+  text-align: left;
+  font-size: larger;
+}
+.about_card .about_card__body .about_card__description {
+  position: relative;
+  top: -30px;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 940px) {
+  .about_card {
+    width: 95%;
+    height: 100px;
+    margin: auto;
+    margin-left: -10px;
+    min-width: 340px;
   }
-.about_card .about_card_icon{
-    width:30%;
-    height: 60%;
-    font-size: 100px;
-    position: relative;
-    top: -15px;
-    left: -10px;
-}
-.about_card .about_card__body{
-    text-align: left;
-    width: 90%;
-    position: relative;
-    left: 0px;
-    
-}
-.about_card .about_card__body .about_card__title{
-    text-align: left;
-    font-size:larger;
-}
-
-
-@media screen and (max-width:940px) {
-  .about_card{
-    width: 90%;
-    height: 50px;
-  }  
-  .about_card .about_card__body .about_card__description{
+  .about_card .about_card__body .about_card__description {
     font-size: var(--text-size-mobile);
-}
+  }
 }

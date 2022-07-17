@@ -1,61 +1,60 @@
 .about {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 .about .container {
-    width: 1240px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  width: 1240px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .about .about-header {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 20px;
-    
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.about .container .about-img{
+.about .container .about-img {
+  border-radius: 10px;
+  position: relative;
+  justify-content: center;
+  height: 100%;
+  max-height: 800px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.about .container .about_card_list {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto;
+  margin-left: 10px;
+}
+@media screen and (max-width: 940px) {
+  .about .container {
+    grid-template-columns: 1fr;
+    width: 100%;
+    min-width: 340px;
+  }
+
+  .about .container .about_card_list {
+    padding-top: 10px;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+  }
+  .about .container .about-img {
     border-radius: 10px;
     position: relative;
     justify-content: center;
-    height: 100%;
-    max-height: 800px;
-    max-width: 600px;
+    max-height: 100%;
+    max-width: 90%;
     margin: auto;
-}
-
-.about .container .about_card_list{
-    height: 100%;
-    width: 100%;
-    display: flex;
-   flex-wrap: wrap;
-   flex-direction: column;
-    margin: auto;
-    margin-left: 10px;
-}
-@media screen and (max-width:940px) {
-    .about .container {
-        grid-template-columns: 1fr;
-        width: 100%;
-       
-    }
-
-    .about .container .about_card_list{
-        padding-top: 10px;
-        height: 100%;
-        width: 80%;
-        display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-        margin: auto;
-    }
-    .about .container .about-img{
-        border-radius: 10px;
-        position: relative;
-        justify-content: center;
-        max-height: 100%;
-        max-width: 80%;
-        margin: auto;
-    }
+  }
 }
