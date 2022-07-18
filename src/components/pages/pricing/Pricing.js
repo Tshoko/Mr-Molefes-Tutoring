@@ -5,7 +5,7 @@ import PricingCard from "./PricingCard";
 const data = {
   card1: {
     title: "Upgrading Students",
-    price_plan: "R300",
+    price_plan: "300",
     plan_type: "Monthly, per Subject",
     text_array: [
       "Admin Fee: 800",
@@ -17,7 +17,7 @@ const data = {
   },
   card2: {
     title: "Extra Classes",
-    price_plan: "R300",
+    price_plan: "300",
     plan_type: "Monthly per Subject",
     text_array: [
       "Admin Fee: 200",
@@ -29,7 +29,7 @@ const data = {
   },
   card3: {
     title: "Private Lessons",
-    price_plan: "R100",
+    price_plan: "100",
     plan_type: "Per Hour ",
     text_array: [
       "External Tutoring: R150 Per Hour",
