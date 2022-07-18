@@ -1,9 +1,11 @@
 .contactus {
   width: 980px;
   height: 60vh;
-  background-color: green;
   position: relative;
   margin: auto;
   display: flex;
   flex-direction: row;
+  border-radius: 20px;
+  box-shadow: 23px 15px 5px rgba(92, 151, 190, 0.2);
+  background-color: #f1f1f1;
 }

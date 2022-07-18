@@ -1,26 +1,30 @@
 .contact_details_container {
-  width: 500px;
+  width: 45%;
   background: #4d4d4d;
   height: 100%;
   display: flex;
+  border-radius: 20px 0px 0px 20px;
 }
 .contact_details_text {
   margin-left: 35px;
-  margin-top: 50px;
+  margin-top: 20px;
   width: 90%;
   color: white;
 }
 .contact_text_container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  align-items: center;
   margin-bottom: 10px;
   padding-top: -10px;
 }
 .contact_icon {
   padding-right: 10px;
-  margin: auto;
+  margin-bottom: auto;
 }
 .contactus_text {
   font-size: 1.02rem;
+}
+.contact_text_h3 {
+  font-size: 1.5rem;
 }
