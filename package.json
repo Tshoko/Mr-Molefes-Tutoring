@@ -1,6 +1,9 @@
 {
   "name": "my-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.11.1"
+  },
   "private": true,
   "dependencies": {
     "@emailjs/browser": "3.6.2",
