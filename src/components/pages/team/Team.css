@@ -49,17 +49,18 @@
   align-items: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 940px) {
   .team .container {
     width: 100%;
   }
 
   .team .container .content {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
 
   .team .card {
-    max-width: 100%;
+    max-width: 90%;
     margin: 1rem;
     position: relative;
     justify-content: center;
@@ -67,5 +68,6 @@
     margin-bottom: 20px;
     max-height: 100%;
     max-width: 80%;
+    padding: 100px;
   }
 }
