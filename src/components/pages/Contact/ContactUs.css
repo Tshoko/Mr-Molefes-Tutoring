@@ -1,6 +1,15 @@
+.contactus_containers {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .contactus {
   width: 980px;
-  height: 60vh;
+  height: 70vh;
   position: relative;
   margin: auto;
   display: flex;
@@ -11,4 +20,20 @@
 }
 h1 {
   margin: auto;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 940px) {
+  .contactus_containers {
+    width: 100%;
+    height: 140vh;
+  }
+  .contactus {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-width: 500px;
+    height: 130vh;
+  }
 }

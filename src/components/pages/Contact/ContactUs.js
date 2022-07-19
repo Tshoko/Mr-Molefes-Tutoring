@@ -5,7 +5,7 @@ import "./ContactUs.css";
 
 export const ContactUs = () => {
   return (
-    <div>
+    <div className="contactus_containers">
       <h1>Contact Us</h1>
       <div className="contactus">
         <ContactDetails />
