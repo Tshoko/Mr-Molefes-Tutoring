@@ -18,8 +18,8 @@ function App() {
       <About />
       <Pricing />
       <Team />
-      <ContactUs />
       <Testimonials />
+      <ContactUs />
       <Footer />
     </div>
   );
