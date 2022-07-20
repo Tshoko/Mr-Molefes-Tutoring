@@ -4,7 +4,8 @@
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
   padding: 1rem;
   width: 90%;
-  height: 25%;
+  height: 23%;
+  max-height: 70vh;
   display: flex;
   margin: auto;
 }
