@@ -17,11 +17,11 @@ const About = () => {
             description="With the more than 7 years experience, we will well help you prepare for your matrix rewrite."
           />
           <AboutCard
-            title="Extra Classes For High Schoolers"
+            title="Extra Classes"
             description="We offer after school programms for grade 7 to 12."
           />
           <AboutCard
-            title="Online Help Sessions"
+            title="Private Sessions"
             description="Baked Cod with Vegetables. 30 minute meal!"
           />
         </div>

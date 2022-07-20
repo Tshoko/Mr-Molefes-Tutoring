@@ -11,6 +11,7 @@ const Hero = () => {
         <p>071 563 4345</p>
         <p>Major Subjects</p>
         <p>Physical Sciences and Mathematics</p>
+        <img className="image" src={HeroImg} alt="hero-img"></img>
         <Link
           className="button_hero"
           to="about"

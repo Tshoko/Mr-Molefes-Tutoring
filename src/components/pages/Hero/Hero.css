@@ -10,16 +10,26 @@
 
 .hero:before {
   content: "";
-  /*background: url("../../../images/hero.jpg") no-repeat center center/cover;*/
+  /*background-image: url("../../../images/hero.jpg") no-repeat center
+    center/cover;*/
   opacity: 1;
   height: 100vh;
-  width: 120%;
+  width: 100%;
   position: absolute;
   top: 0px;
   left: 0px;
-  z-index: -2;
+  z-index: -1;
+  opacity: 0.5;
+  background-color: Black;
 }
-
+.image {
+  z-index: -2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100%;
+}
 .hero .content {
   height: 100%;
   display: flex;
@@ -74,5 +84,18 @@
   .hero .content p:nth-child(4) {
     font-size: 1.75rem;
     width: 100%;
+  }
+  .image {
+    height: 112vh;
+    width: 100%;
+  }
+  .hero:before {
+    content: "";
+    /*background-image: url("../../../images/hero.jpg") no-repeat center
+      center/cover;*/
+    opacity: 1;
+    height: 112vh;
+    opacity: 0.5;
+    background-color: Black;
   }
 }

@@ -52,8 +52,11 @@
     height: 100px;
     margin: auto;
     margin-left: -10px;
-    min-width: 340px;
+    min-width: 240px;
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 20px;
   }
   .about_card .about_card__body .about_card__description {
+    font-size: 12px;
   }
 }

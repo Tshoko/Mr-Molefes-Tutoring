@@ -61,6 +61,7 @@
     background-color: rgba(0, 0, 0, 0.9);
     color: #000;
     position: relative;
+    height: 80px;
   }
 
   .header .navbar {
