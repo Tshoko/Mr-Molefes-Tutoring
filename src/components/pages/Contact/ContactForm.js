@@ -28,16 +28,41 @@ export const ContactForm = () => {
   return (
     <form className="form_container" ref={form} onSubmit={sendEmail}>
       <div className="form_text">
-        <input type="text" name="user_name" placeholder="Name" />
-        <input type="text" name="user_surname" placeholder="Surname" />
+        <input
+          type="text"
+          name="user_name"
+          className="user_name"
+          placeholder="Name"
+        />
+        <input
+          type="text"
+          name="user_surname"
+          className="user_surname"
+          placeholder="Surname"
+        />
       </div>
       <div className="form_text">
-        <input type="phone" name="user_phone" placeholder="Phone Number" />
-        <input type="email" name="user_email" placeholder="Email" />
+        <input
+          type="phone"
+          name="user_phone"
+          className="user_phone"
+          placeholder="Phone Number"
+        />
+        <input
+          type="email"
+          name="user_email"
+          clasName="user_email"
+          placeholder="Email"
+        />
       </div>
 
       <div className="form_text">
-        <input type="text" name="Subject" placeholder="Subject" />
+        <input
+          type="text"
+          name="Subject"
+          className="subject"
+          placeholder="Subject"
+        />
       </div>
       <div className="form_text_massage">
         <textarea

@@ -35,12 +35,65 @@
   color: #fff;
   text-align: center;
   border-radius: 10px;
-  border: 1px solid var(--secondary-dark);
+  border: 1px solid #1eb2a6;
   margin-top: -10px;
   margin-left: 35%;
+}
+input {
+  border-color: #ffff;
+  background-color: #fff;
 }
 
 .submit:hover {
   background-color: var(--secondary-dark);
-  border: 1px solid var(--secondary-dark);
+  border: 1px solid #1eb2a6;
+}
+@media screen and (max-width: 940px) {
+  .form_container {
+    width: 90%;
+    height: 50%;
+    margin: auto;
+  }
+  .form_text_massage {
+    width: 95%;
+    height: 250px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 540px) {
+  .form_text_massage {
+    height: 150px;
+  }
+  .form_text {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+  }
+  .user_name {
+    margin-bottom: 10px;
+    height: 20px;
+  }
+  .user_surname {
+    margin-bottom: -5px;
+    height: 20px;
+  }
+  .submit {
+    margin: auto;
+    margin-top: -10px;
+  }
+  .user_phone {
+    margin-bottom: 3%;
+    height: 20px;
+  }
+  .user_email {
+    height: 20px;
+    margin-bottom: -10px;
+  }
+  .subject {
+    height: 20px;
+    margin-top: -3%;
+  }
 }

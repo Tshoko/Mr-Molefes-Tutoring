@@ -36,4 +36,18 @@
     display: flex;
     border-radius: 20px 20px 0px 0px;
   }
+  .contact_details_text {
+    margin: auto;
+  }
+
+  .contactus_text {
+    font-size: 1rem;
+  }
+  .contact_icon {
+    padding-right: 2%;
+    margin-bottom: auto;
+    width: 10%;
+    height: 30px;
+    min-width: 20px;
+  }
 }

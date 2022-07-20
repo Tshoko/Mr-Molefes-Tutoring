@@ -28,8 +28,7 @@ export const ContactDetails = () => {
         </div>
         <div className="contact_text_container">
           <BsFillTelephoneFill style={style} className="contact_icon" />
-          <p className="contactus_text">Phone: 073 224 2420 Or </p>
-          <p className="contactus_text"> 078 238 1928</p>
+          <p className="contactus_text">Phone: 073 224 2420 </p>
         </div>
         <div className="contact_text_container">
           <SiMinutemailer style={style} className="contact_icon" />
