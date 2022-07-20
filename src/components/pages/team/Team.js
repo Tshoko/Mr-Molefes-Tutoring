@@ -1,23 +1,19 @@
-import React from 'react'
+import React from "react";
 
-import './Team.css'
-import TeamCard from './TeamCard'
+import "./Team.css";
+import TeamCard from "./TeamCard";
 
 const Team = () => {
-    return (
-        <div className='team' id='team'>
-            <div className='container'>
-                <h2>Team</h2>
-                <span className='line'></span>
-                <div className='content'>
-                <TeamCard/>
-                <TeamCard/>
-                <TeamCard/>
-                </div>
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className="team" id="team">
+      <h2>Team</h2>
+      <div className="team_card_container">
+        <TeamCard />
+        <TeamCard />
+        <TeamCard />
+      </div>
+    </div>
+  );
+};
 
-
-export default Team
+export default Team;

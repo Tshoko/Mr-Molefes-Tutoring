@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 .pricing_header {
   font-size: 3rem;
@@ -21,9 +21,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-items: center;
-    justify-content: center;
     width: 100%;
     min-width: 340px;
+    margin: auto;
   }
 }
