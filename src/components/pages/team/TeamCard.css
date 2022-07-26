@@ -12,10 +12,10 @@
 .team_image_container {
   background-color: #ffffff;
   background-image: linear-gradient(
-    180deg,
-    #dae0d4 0%,
+    130deg,
+    #f7f6fa 50%,
     rgb(255, 255, 255) 50%,
-    rgb(250, 250, 250) 100%
+    rgb(250, 250, 250) 90%
   );
 
   width: 100%;
