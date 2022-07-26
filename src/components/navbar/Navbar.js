@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="header" id="header">
       <nav className="navbar">
-        <h1 class="logo">SciEcum</h1>
+        <h1 class="logo_h1">Scium</h1>
 
         <div className="hamburger" onClick={handleClick}>
           {click ? (

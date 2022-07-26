@@ -8,6 +8,10 @@
   overflow: hidden;
   z-index: 1;
 }
+.logo_h1 {
+  color: white;
+  font-size: 2rem;
+}
 #header {
   background-color: rgba(2, 143, 143, 0.9);
 }
