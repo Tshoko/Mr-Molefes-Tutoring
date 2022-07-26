@@ -22,12 +22,13 @@ export const ContactForm = () => {
         (error) => {
           console.log(error.text);
         }
-      );
+      )
+      .then(window.location.reload(false));
   };
 
   return (
-    <form className="form_container" ref={form} onSubmit={sendEmail}>
-      <div className="form_text">
+    <form className="form_container" ref={form}>
+      <div className="form_text" onSubmit={sendEmail}>
         <input
           type="text"
           name="user_name"
