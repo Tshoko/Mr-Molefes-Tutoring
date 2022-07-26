@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { Link } from "react-scroll";
-import HeroImg from "../../../images/hero.jpg";
+import HeroImg from "../../../images/hero.png";
 
 const Hero = () => {
   return (

@@ -16,6 +16,7 @@
 .about_card .about_card_icon {
   width: 30%;
   height: 60%;
+  max-width: 100px;
   font-size: 100px;
   position: relative;
   top: -15px;
